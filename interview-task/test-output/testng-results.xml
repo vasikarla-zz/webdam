@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login API Suite" duration-ms="3252" started-at="2017-08-27T18:03:54Z" finished-at="2017-08-27T18:03:57Z">
+    <groups>
+    </groups>
+    <test name="All" duration-ms="3252" started-at="2017-08-27T18:03:54Z" finished-at="2017-08-27T18:03:57Z">
+      <class name="com.webdam.interview.sample.LoginUserTest">
+        <test-method status="PASS" signature="headLogin()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="headLogin" duration-ms="325" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headLogin -->
+        <test-method status="PASS" signature="verifyGetLoginResponseBodyWithInValidAccessToken()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="verifyGetLoginResponseBodyWithInValidAccessToken" duration-ms="830" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetLoginResponseBodyWithInValidAccessToken -->
+        <test-method status="PASS" signature="verifyGetLoginResponseCodeWithInValidAccessToken()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="verifyGetLoginResponseCodeWithInValidAccessToken" duration-ms="417" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetLoginResponseCodeWithInValidAccessToken -->
+        <test-method status="PASS" signature="verifyGetLoginResponseCodeWithValidAccessToken()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="verifyGetLoginResponseCodeWithValidAccessToken" duration-ms="319" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetLoginResponseCodeWithValidAccessToken -->
+        <test-method status="PASS" signature="verifyHeadLoginResponseCodeWithInValidAccessToken()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="verifyHeadLoginResponseCodeWithInValidAccessToken" duration-ms="340" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadLoginResponseCodeWithInValidAccessToken -->
+        <test-method status="PASS" signature="verifyHeadLoginResponseCodeWithValidAccessToken()[pri:0, instance:com.webdam.interview.sample.LoginUserTest@28feb3fa]" name="verifyHeadLoginResponseCodeWithValidAccessToken" duration-ms="378" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadLoginResponseCodeWithValidAccessToken -->
+      </class> <!-- com.webdam.interview.sample.LoginUserTest -->
+      <class name="com.webdam.interview.sample.AssetsTest">
+        <test-method status="PASS" signature="headAssets()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="headAssets" duration-ms="1833" started-at="2017-08-27T11:03:54Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headAssets -->
+        <test-method status="PASS" signature="getAssets()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="getAssets" duration-ms="1833" started-at="2017-08-27T11:03:54Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAssets -->
+        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="getSearch" duration-ms="2257" started-at="2017-08-27T11:03:54Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearch -->
+        <test-method status="PASS" signature="getAssetsById()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="getAssetsById" duration-ms="1833" started-at="2017-08-27T11:03:54Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAssetsById -->
+        <test-method status="PASS" signature="headAssetsById()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="headAssetsById" duration-ms="1833" started-at="2017-08-27T11:03:54Z" finished-at="2017-08-27T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headAssetsById -->
+        <test-method status="PASS" signature="headSearch()[pri:0, instance:com.webdam.interview.sample.AssetsTest@2a5ca609]" name="headSearch" duration-ms="471" started-at="2017-08-27T11:03:56Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headSearch -->
+      </class> <!-- com.webdam.interview.sample.AssetsTest -->
+      <class name="com.webdam.interview.sample.LogoutUserTest">
+        <test-method status="PASS" signature="getLogout()[pri:0, instance:com.webdam.interview.sample.LogoutUserTest@675d3402]" name="getLogout" duration-ms="356" started-at="2017-08-27T11:03:57Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogout -->
+        <test-method status="PASS" signature="headLogout()[pri:0, instance:com.webdam.interview.sample.LogoutUserTest@675d3402]" name="headLogout" duration-ms="325" started-at="2017-08-27T11:03:57Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headLogout -->
+      </class> <!-- com.webdam.interview.sample.LogoutUserTest -->
+      <class name="com.webdam.interview.sample.SearchTest">
+        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.webdam.interview.sample.SearchTest@51565ec2]" name="getSearch" duration-ms="634" started-at="2017-08-27T11:03:57Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearch -->
+        <test-method status="PASS" signature="getSearchWithQuery()[pri:0, instance:com.webdam.interview.sample.SearchTest@51565ec2]" name="getSearchWithQuery" duration-ms="357" started-at="2017-08-27T11:03:57Z" finished-at="2017-08-27T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchWithQuery -->
+      </class> <!-- com.webdam.interview.sample.SearchTest -->
+    </test> <!-- All -->
+  </suite> <!-- Login API Suite -->
+</testng-results>

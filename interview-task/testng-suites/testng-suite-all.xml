@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login API Suite" verbose="1" parallel="methods" thread-count="5">
+	<test name="All">
+		<packages>
+			<package name="com.webdam.interview.sample" />
+		</packages>
+	</test>
+</suite>
