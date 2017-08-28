@@ -1,0 +1,42 @@
+Functional Issues
+=================
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=apple&sort=aut&limit=-11
+Expected : Should not report results
+Actual : Displays 3 set of records
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=a&sort=a&limit=-10
+Expected : Should sort based on a -> ascending
+Actual : Sorts descending
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=a&sort=as&limit=-10
+Expected : Should sort based on a -> ascending
+Actual : Sorts descending
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=a&sort=des&limit=-11
+Expected : Should sort descending
+Actual : Reports unsorted results
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=a&sort=desc&limit=11&limit=1
+Expected : Should throw error when the limit is exceed (11)
+Actual : Accepts the limit when its provided twice.
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=&sort=desc
+Expected : No support for Operators
+Actual : Gets back the results
+Other Operators : 
+    http://interview-testing-api.webdamdb.com/api/v1/search?query=¿&sort=desc&limit=10
+    http://interview-testing-api.webdamdb.com/api/v1/search?query=.&sort=desc&limit=10
+
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=&sort=desC
+Expected : Sorted results
+Actual : Unsorted results
+
+Resiliency Issues
+=================
+
+http://interview-testing-api.webdamdb.com/api/v1/search?query=a&sort=desc&limit=x
+Expected : Gracefull error with a proper return code
+Actual : Vague error with 200 response
+
